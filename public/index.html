@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../public/css/tailwind.css">
+  <script src="https://kit.fontawesome.com/9e497a6dda.js" crossorigin="anonymous"></script>
+  
+  <title>Food</title>
+</head>
+<body class="min-h-screen bg-gray-400 mb-8">
+    <!-- Header -->
+
+    <div class="flex justify-between rounded-sm bg-secundary text-white items-center ">
+      <div><img class="h-8 p-2" src="./css/assets/logo-w.svg" alt=""></div>
+      <div class="text-2xl pr-2">&equiv;</div>
+    </div>
+
+    <!-- navbar -->
+
+    <nav class=" sticky top-0 z-10">
+      <div>
+        <div>
+          <input class="form-control" type="text" placeholder="Busqueda">
+        </div>
+      </div>
+
+      <div class="flex mx-2 place-items-center text-white">
+
+        <div class="flex">
+          Price
+          <div class="ml-2">$</div>
+          <div class="ml-2 text-yellow-500">$$</div>
+          <div class="ml-2">$$$</div>
+          <div class="ml-2">$$$$</div>
+        </div>
+
+        <div class="flex ml-6">
+          Score
+          <div class="text-yellow-500">&starf;</div>
+          <div class="text-yellow-500">&starf;</div>
+          <div class="text-yellow-500">&starf;</div>
+          <div class="text-yellow-500">&starf;</div>
+          <div>&starf;</div>
+          
+          
+        </div>
+
+        <button class="btn btn-primary my-1">filter</button>
+
+      </div>
+      
+
+    </nav>
+
+    <!-- Banner -->
+
+    <main>
+      <div class="h-56 md:h-100 bg-cover bg-bottom " style="background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);">
+        
+      </div>
+    </main>
+  
+    <!-- cuerpo de productos -->
+    <div class="container mx-auto md:flex ">
+      
+      <div class="mx-2 md:ml-2 mt-4 md:w-1/2 md:flex md:bg-white rounded-lg">
+
+        <div>
+          <img class="w-full md:w-48 md:h-full object-cover rounded-lg md:rounded-r-none" src="https://images.unsplash.com/photo-1551782450-17144efb9c50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="">
+        </div>
+        
+        <div class="relative bg-white md:bg-transparent rounded-lg -mt-2 mx-2 p-2 shadow-lg">
+  
+          <h2 class="text-gray-900 text-2xl uppercase font-semibold tracking-tight">Chesse Hamburger</h2>
+          <p class="text-gray-500">Cheese Hamburger with Onion, tomatoes and ketchup </p>
+          <div class="font-bold text-gray-600 mt-2">2.99 USD$</div>
+          <div class="text-sm text-yellow-800 mt-2">&starf;&starf;&starf;&starf;&star; | 50 reviews</div>
+  
+        </div>
+  
+      </div>
+
+      <div class="mx-2 mt-4 md:w-1/2 md:flex md:bg-white rounded-lg">
+
+        <div>
+          <img class="w-full md:w-48 md:h-full object-cover rounded-lg md:rounded-r-none" src="https://images.unsplash.com/photo-1551782450-17144efb9c50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="">
+        </div>
+        
+        <div class="relative bg-white md:bg-transparent rounded-lg -mt-2 mx-2 p-2 shadow-lg">
+  
+          <h2 class="text-gray-900 text-2xl uppercase font-semibold tracking-tight">Chesse Hamburger</h2>
+          <p class="text-gray-500">Cheese Hamburger with Onion, tomatoes and ketchup </p>
+          <div class="font-bold text-gray-600 mt-2">2.99 USD$</div>
+          <div class="text-sm text-yellow-800 mt-2">&starf;&starf;&starf;&starf;&star; | 50 reviews</div>
+  
+        </div>
+  
+      </div>
+
+    </div>
+
+    <!-- Formulario -->
+
+    <form class="mx-2">
+      <div>
+        <label>Name</label>
+        <input class="form-control bg-secundary" type="text" placeholder="Ej. Oscar Quiñones">
+      </div>
+
+      <div>
+        <label>Email</label>
+        <input class="form-control bg-secundary " type="email" placeholder="Ej. oscardqq@hotmail.com">
+      </div>
+
+      <div>
+        <label>Comments</label>
+        <textarea  class="form-control bg-secundary" name="" id="" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <button class=" btn btn-primary ">Send</button>
+      </div>
+
+    </form>
+
+     
+    
+    <!-- footer -->
+
+    <footer class=" bg-secundary text-white w-full mt-4" >
+
+      <div class="md:flex md:flex-row-reverse justify-around"> 
+
+        <div class="mt-4 ml-2">
+          <div class="hover:text-blue-600 cursor-pointer"><i class="fa-brands fa-facebook"></i>  Oscar Quiñones</div>
+          <div class="hover:text-orange-600 cursor-pointer"><i class="fa-brands fa-instagram"></i>  @oscardaniel08</div>
+          <div class="hover:text-blue-600 cursor-pointer"><i class="fa-brands fa-linkedin"></i>  Oscar Daniel Quiñones</div>
+        </div>
+  
+        <ul class="mt-4 ml-2 md:list-disc">
+          <li class="hover:text-primary cursor-pointer">Support</li>
+          <li class="hover:text-primary cursor-pointer">About Us</li>
+          <li class="hover:text-primary cursor-pointer">Register</li>
+          <li class="hover:text-primary cursor-pointer">Privacy</li>
+        </ul>
+
+      </div>
+
+    </footer>
+</body>
+</html>
